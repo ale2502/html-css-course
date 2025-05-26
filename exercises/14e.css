@@ -3,15 +3,23 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(233, 233, 233);
 
-    
 }
 
 .left-section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .img {
@@ -23,5 +31,24 @@
 }
 
 .right-section {
-    
+    margin-right: 50px;
+}
+
+.add-friend-button {
+    border: none;
+    background-color: rgb(90, 151, 255);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.message-button {
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.name {
+    font-weight: bold;
+    font-family: Arial;
 }
