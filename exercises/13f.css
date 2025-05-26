@@ -1,0 +1,62 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+}
+
+.profile-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.text {
+    flex: 1;
+}
+
+.user-nick {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.link-preview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.gray-bg {
+    background-color: rgb(212, 212, 212);
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.preview-text {
+    flex: 1;
+    padding-right: 15px;
+}
+
+.user-post {
+    margin-bottom: 10px;
+}
+
+.message {
+    line-height: 20px;
+}
+
+.text-preview {
+    line-height: 20px;
+}
+
+.nick {
+    margin-right: 5px;
+}

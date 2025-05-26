@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox Exercises</title>
+</head>
+<body>
+    <div style="
+        display: flex;
+        flex-direction: row;
+    ">
+        <div style="
+            background-color: lightblue;
+            width: 200px;
+        ">
+            200px
+        </div>
+        <div style="
+            background-color: lightpink;
+            width: 75px;
+        ">
+            75px
+        </div>
+    </div>
+
+    <div style="
+        display: flex;
+        flex-direction: row;
+    ">
+        <div style="
+            background-color: lightblue;
+            width: 50px;
+        ">
+            item1
+        </div>
+        <div style="
+            background-color: lightpink;
+            flex: 1;
+        ">
+            item2
+        </div>
+        <div style="
+            background-color: lightblue;
+            width: 75px;
+        ">
+            item3
+        </div>
+    </div>
+
+    <div style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    ">
+        <div style="
+            background-color: lightpink;
+        ">
+            item1
+        </div>
+        <div style="
+            background-color: lightpink;
+        ">
+            item2
+        </div>
+        <div style="
+            background-color: lightpink;
+        ">
+            item3
+        </div>
+        <div style="
+            background-color: lightpink;
+        ">
+            item4
+        </div>
+    </div>
+
+    <div style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50px;
+        border-width: 1px;
+        border-style: solid;
+        align-items: center;
+    ">
+        <div style="
+            background-color: lightpink;
+        ">
+            item1
+        </div>
+        <div style="
+            background-color: lightpink;
+        ">
+            item2
+        </div>
+    </div>
+
+    <div style="
+        margin-top: 30px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(198, 198, 198);
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px;
+        
+    ">
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        ">
+            <div style="
+                align-content: center;
+                margin: 0;
+            ">
+                <p style="
+                    background-color: aqua;
+                    margin: 0;
+                ">
+                    Home
+                </p>
+            </div>
+            <div>
+                <p style="
+                    background-color: rgb(80, 80, 255);
+                    color: white;
+                    padding: 5px;
+                    width: 35px;
+                    border-radius: 15px;
+                    text-align: center;
+                    margin: 0;
+                ">
+                    14
+                </p>
+            </div>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        ">
+            <div style="
+                align-content: center;
+                margin: 0;
+            ">
+                <p style="
+                    background-color: aqua;
+                    margin: 0;
+                ">
+                    Home
+                </p>
+            </div>
+            <div>
+                <p style="
+                    background-color: rgb(80, 80, 255);
+                    color: white;
+                    padding: 5px;
+                    width: 35px;
+                    border-radius: 15px;
+                    text-align: center;
+                    margin: 0;
+                ">
+                    14
+                </p>
+            </div>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        ">
+            <div style="
+                align-content: center;
+                margin: 0;
+            ">
+                <p style="
+                    background-color: aqua;
+                    margin: 0;
+                ">
+                    Home
+                </p>
+            </div>
+            <div>
+                <p style="
+                    background-color: rgb(80, 80, 255);
+                    color: white;
+                    padding: 5px;
+                    width: 35px;
+                    border-radius: 15px;
+                    text-align: center;
+                    margin: 0;
+                ">
+                    14
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div style="
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    ">
+        <div style="
+            background-color: lightblue;
+        ">
+            <img src="/thumbnails/cat.jpeg" style="
+                object-fit: cover;
+                width: 80px;
+                height: 80px;
+                border-radius: 40px;
+                vertical-align: middle;
+            ">
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            justify-content: space-between;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        ">
+            <p style="margin: 0;">Oliver</p>
+            <p style="margin: 0;">The cat</p>
+            <p style="margin: 0;">Popular</p>
+        </div>
+        <div style="
+            align-content: center;
+        ">
+            <button>Follow</button>
+        </div>
+    </div>
+
+    <div style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(175, 119, 227);
+        height: 50px;
+        column-gap: 0px;
+    ">
+        <div style="
+            align-content: center;
+            width: 120px;
+        ">
+            <p style="
+                margin: 0;
+            ">
+                Home
+            </p>
+        </div>
+        <div style="
+            flex: 1;
+            max-width: 600px;
+            align-content: center;
+        ">
+            <input type="text" placeholder="Search" style="
+                border: 0;
+                height: 25px;
+                border-radius: 15px;
+                padding-left: 15px;
+            ">
+        </div>
+        <div style="
+            align-content: center;
+        ">
+            <button style="
+                border-width: 1px;
+                border-style: solid;
+                border-color: white;
+                vertical-align: middle;
+                background-color: transparent;
+                padding: 8px;
+                color: white;
+            ">
+                Download
+            </button>
+        </div>
+    </div>
+</body>
+</html>

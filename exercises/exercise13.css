@@ -1,0 +1,62 @@
+div {
+    font-family: Arial;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    padding: 12px;
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.inbox-label {
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sender-picture {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.email-content {
+    flex: 1;
+}
+
+.email-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.sender-name {
+    font-weight: bold;
+}
+
+.send-time {
+    color: gray;
+}
+
+.subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+}

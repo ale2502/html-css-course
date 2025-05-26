@@ -1,0 +1,17 @@
+p {
+    font-family: Montserrat;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.model-3 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.touchless-delivery {
+    text-decoration: underline;
+}
